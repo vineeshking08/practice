@@ -1,0 +1,51 @@
+html,body {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;}
+h1,h3 {
+    text-align: center;}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800}
+.coin {
+    display: flex;
+    
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(to right, #ff7b7b, #7b7bff);
+    border-radius: 20px;
+    padding: 30px;
+}
+.box1,.box2 {
+    width: 60%;
+    height: 90%;
+    background:whitesmoke;
+    border-radius: 20px;
+}
+a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.box1:hover {
+    background: linear-gradient();
+    transition: 0.7s;
+    transform: translateY(-10px);
+     background-color: rgba(68, 251, 74, 0.893);
+    color: white;
+}
+.box2:hover {
+    transition: 0.7s;
+    transform: translateY(-10px);
+    background-color: rgba(68, 251, 74, 0.893);
+    color: white;
+}
+ul,li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+margin: 8%;
+ 
+}
