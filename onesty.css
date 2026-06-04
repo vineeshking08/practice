@@ -1,10 +1,43 @@
-html,body {
+html,
+body {
     height: 100%;
     padding: 0%;
     margin: 0%;
 }
 
-h1{
+h1 {
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div {
+    background: linear-gradient(to right, rgb(195, 195, 25), rgb(67, 213, 67));
+}
+
+div {
+    border-radius: 40px;
+    margin: 0px 60px 0px 60px;
+}
+
+button,
+input {
+    padding: 12px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    transform: scale(1.05);
+     transition: 0.3s;
+}
+
